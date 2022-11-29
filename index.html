@@ -41,38 +41,160 @@
 <main>
   <section class="section-about">
     <div class="container">
-    <!-- h2 -->
+      <!-- Image on left, heading and paragraphs on the right using FLEXBOX -->
+
+      <img src="images/about-us.jpg" alt="About Us">
+
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
+    </p>
+
     </div><!--end container-->
   </section><!--end section-about-->
 
   <section class="section-services">
     <div class="container">
-    <!-- h2 heading, five div's each with h3,image,text and button on a grid-->
-    </div><!--end container-->
+      <!-- h2 heading, five div's each with h3,image,text and button on a grid-->
+      <h2>Our Services</h2>
+
+    <div class="Digital">
+        <img src="images/digital.jpg" alt="digital">
+        <h3>Digital Transformation</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
+        </p>
+        <button>Digital Plans ▶</button>
+      </div>
+
+      <div class="Marketing">
+        <img src="images/marketing.jpg" alt="Marketing">
+        <h3>Marketing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
+        </p>
+        <button> Marketing Plans ▶</button>
+      </div>
+
+      <div class="Video Production">
+        <img src="images/video.jpg" alt="Video">
+        <h3>Video Production</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
+        </p>
+        <button> Video Plans ▶</button>
+      </div>
+
+      <div class="Web Development">
+        <img src="images/web.jpg" alt="Web">
+        <h3>Web Development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
+        </p>
+        <button> Web Plans ▶</button>
+      </div>
+
+      <div class="Print">
+        <img src="images/print.jpg" alt="print">
+        <h3>Print</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
+        </p>
+        <button> Print Plans ▶</button>
+      </div>
+
+      </div><!--end container-->
   </section><!--end section-services-->
   
   <section class="section-vision">
+    <img src="images/vision.jpg" alt="vision">
     <div class="container">
-    <!-- -->
+    <!--h3, paragraph and button -->
+    <h3>Our Vision</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
+        </p>
+        <button>Learn More ▶</button>
     </div><!--end container-->
   </section><!--end section-vision-->
 
   <section class="section-team">
     <div class="container">
     <!-- h2 two divs with a images, two divs with h3,h4, and paragraph with intext -->
+    <h2>Our Team</h2>
+
+    <div class="jone">
+        <img src="images/john.jpg" alt="john">
+      </div>
+
+      <div>
+        <h3>John Doe</h3>
+        <h4> CEO and Co-owner</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
+        </p>
+      </div>
+
+      <div class="Bob">
+        <img src="images/bob.jpg" alt="bob">
+      </div>
+
+      <div>
+        <h3>Bob Rite</h3>
+        <h4> CFO and Co-owner</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
+        </p>
+      </div>
+
     </div><!--end container-->
   </section><!--end section-team-->
 
   <section class="section-contact">
-    <div class="container">
+    <div class="grid-container">
     <!-- h2 , forms, google maps embed, table, on a grid -->
+    <h2>Contact Us</h2>
+
+    <div class="form">
+    <form>
+      <h3>Send us a message</h3>
+      <label for="name">Full Name</label>
+      <input type="text" id="fname" name="fname">
+      <label for="email">Email</label>
+      <input type="text" id="lname" name="lname">
+      <label for="message">Message</label>
+      <textarea> </textarea>
+      <input type="submit" name="send" value="SEND">
+    </form>
+    </div>
+
+    <div class="googleMap">
+      <h3>Location</h3>
+      <iframe src="https://goo.gl/maps/eHdwEwmVhMgV1e8cA"></iframe>
+    </div>
+    
+    <div class="hours">
+    <h3>Hours of operation</h3>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Days</th>
+          <th scope="col">Hours</th>
+        </tr> 
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday - Friday</td>
+          <td>9am-6am</td>
+        </tr>
+        <tr>
+          <td>Saturday - Sunday</td>
+          <td>Closed</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+    
     </div><!--end container-->
-  </section><!--end section-contact-->
-  
+  </section><!--end section-contact--> 
 </main>
+
 <footer>
 <div class="container">
   <!-- two paragraph of text-->
+ <p> &copy; Copyright Three Star Media, 2020 </p>
+ <p> All images are taken from Unsplash </p>
 </div>
 </footer>   
 <!--111-->
