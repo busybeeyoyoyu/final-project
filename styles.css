@@ -62,13 +62,12 @@ h1{
 
 h2{
     font-size: 48px;
-    margin-bottom: 20px;
+    margin: 15px;
     font-weight: bold;
 }
 
 h3{
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 36px;
     font-weight: bold;
 }
 h4{
@@ -94,16 +93,21 @@ img{
     padding:1em;
 }
 
-.container input{
+.container input[type=search]{
     width: 90%;
-    height: 30px;
+    height: 50px;
+    padding: 12px;
+	margin: 5px 0;
+	box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
 }
 
-.container button{
+.navigation button{
     background-color: #000000;
-    border: #c78b07;
+    border:#ffffff;
     border: 5px;
     color: #c78b07;
+    height: 50px;
 }
 
 nav{
@@ -147,21 +151,25 @@ color: white;
     background-color:#c78b07 ;
     border: none;
     padding: 2rem;
-    font-size:18px;
+    font-size:24px;
     color: #000000;
 }
 
 
 .section-about{
     background-color:  #ffe6ac;
-    background-size: cover;
     padding: 1rem;
 }
-
+.section-about img{
+    width: 100%;
+}
 
 .Digital{
     background-color:  #ffe6ac;
-   padding: 1rem;
+    margin: 1rem;
+}
+.Digital-detail{
+    padding: 1rem;
 }
 .Digital img{
     width:100%;
@@ -176,11 +184,13 @@ color: white;
 
 .Marketing{
     background-color:  #ffe6ac;
-    background-size: cover;
-    padding: 1rem;
+    margin: 1rem;
 }
 .Marketing img{
     width:100%;
+}
+.Marketing-detail{
+    padding: 1rem;
 }
 .Marketing button{ 
     background-color:#000000 ;
@@ -189,13 +199,16 @@ color: white;
     padding: 2rem;
     font-size:18px;
 }
+
 .Video{
     background-color:  #ffe6ac;
-    background-size: cover;
-    padding: 1rem;
+    margin: 1rem;
 }
 .Video img{
     width:100%;
+}
+.Video-detail{
+    padding: 1rem;
 }
 .Video button{ 
     background-color:#000000 ;
@@ -204,14 +217,17 @@ color: white;
     padding: 2rem;
     font-size:18px;
 }
+
 .Web{
     background-color:  #ffe6ac;
-    background-size: cover;
-    padding: 1rem;
+    margin: 1rem;
 }
 .Web img{
         width:100%;
     }
+.Web-detail{
+    padding: 1rem;
+}
 .Web button{ 
     background-color:#000000 ;
     color: #ffffff;
@@ -221,11 +237,13 @@ color: white;
 }
 .Print{
     background-color:  #ffe6ac;
-    background-size: cover;
-    padding: 1rem;
+    margin: 1rem;
 }
 .Print img{
     width:100%;
+}
+.Print-detail{
+    padding: 1rem;
 }
 .Print button{ 
     background-color:#000000 ;
@@ -237,15 +255,16 @@ color: white;
 .section-vision{
     background-image: url(../final-project/images/vision.jpg);
     background-size: cover;
-    padding-top: 60px;
+    /* padding-top: 60px;
     padding-bottom: 60px;
-    color: #ffffff;
+    color: #ffffff; */
+    margin: 1rem;
 }
 .section-vision .container{
         color:white;}
         
 .section-vision button{ 
-    background-color:#000000 ;
+    background-color:#353749 ;
     color: #ffffff;
     border-color: #c78b07;
     padding: 2rem;
@@ -253,35 +272,42 @@ color: white;
 }
 .jone{
     background-color:  #ffe6ac;
-    background-size: cover;
-    padding: 1rem;
+    margin: 1rem;
 }
 
 .jone img{
     width:100%;
 }
+.jone-detail{
+    padding:1rem;
+}
 
 .Bob{
     background-color:  #ffe6ac;
-    background-size: cover;
-    padding: 1rem;
+    margin: 1rem;
 }
+   
 .Bob img{
     width:100%;
 }
+.Bob-detail{
+    padding:1rem;
+}
+
 
 .section-contact{
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .form{
     padding-bottom: 2rem;
+    padding: 1rem;
 }
 
 input[type=text] {
 	width: 100%;
-	padding: 12px 20px;
-	margin: 8px 0;
+	padding: 12px;
+	margin: 5px 0;
 	box-sizing: border-box;
     border: 1px solid rgb(0, 0, 0);
   }
@@ -291,9 +317,9 @@ textarea {
 	height: 150px;
 	box-sizing: border-box;
 	border: 1px solid rgb(0, 0, 0);
-	background-color:white;
 	font-size: 16px;
 	resize: none;
+    margin:5px 0;
   }
 
   input[type=submit]{
@@ -303,13 +329,16 @@ textarea {
     font-size: 18px;
     font-weight: bold;
     border:none;
+    margin:10px 0;
   }
 
 .hours{
     padding-bottom: 2rem;
+    padding: 1rem;
 }
   table, td, th {
     border: 1px solid;
+    padding: 1rem;
   }
   th{
     display: center;
@@ -320,6 +349,9 @@ textarea {
     border-collapse: collapse;
   }
   
+  .googlemap{
+    padding: 1rem;
+  }
   iframe{
     width: 100%;
   }
@@ -329,7 +361,7 @@ textarea {
         background-color:#000000 ;
         color:#c78b07;
         padding: 0.5rem;
-        padding-top: 1rem;
+        padding-top: 2rem;
 
 
 @media screen and (min-width:1200px){

@@ -28,7 +28,7 @@
             <li><a href="#">Team</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-          <form>
+          <form class="navigation">
             <input type="search">
             <button>&#128269;</button>
           </form>
@@ -49,13 +49,11 @@
   <section class="section-about">
     <div class="container">
       <!-- Image on left, heading and paragraphs on the right using FLEXBOX -->
-
       <img src="images/about-us.jpg" alt="About Us">
 
     <h2>About Us</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
     </p>
-
     </div><!--end container-->
   </section><!--end section-about-->
 
@@ -65,51 +63,70 @@
       <h2>Our Services</h2>
 
     <div class="Digital">
-        <img src="images/digital.jpg" alt="digital">
-        <h3>Digital Transformation</h3>
+      <div class="Digital-img">
+      <img src="images/digital.jpg" alt="digital">
+    </div>
+    <div class="Digital-detail">  
+    <h3>Digital Transformation</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
         </p>
         <button>Digital Plans ▶</button>
       </div>
+      </div>
 
       <div class="Marketing">
+        <div class="Marketing-img">
         <img src="images/marketing.jpg" alt="Marketing">
+        </div>
+        <div class="Marketing-detail">
         <h3>Marketing</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
         </p>
         <button> Marketing Plans ▶</button>
+        </div>
       </div>
 
       <div class="Video">
+        <div class="Video-img">
         <img src="images/video.jpg" alt="Video">
+        </div>
+        <div class="Video-detail">
         <h3>Video Production</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
         </p>
         <button> Video Plans ▶</button>
+        </div>
       </div>
 
       <div class="Web">
+        <div class="Web-img">
         <img src="images/web.jpg" alt="Web">
+        </div>
+        <div class="Web-detail">
         <h3>Web Development</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
         </p>
         <button> Web Plans ▶</button>
+        </div>
       </div>
 
       <div class="Print">
+        <div class="Print-img">
         <img src="images/print.jpg" alt="print">
-
+        </div>
+        <div class="Print-detail">
         <h3>Print</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
         </p>
         <button> Print Plans ▶</button>
+      </div>
       </div>
 
       </div><!--end container-->
   </section><!--end section-services-->
   
   <section class="section-vision">
-    <img src="images/vision.jpg" alt="vision">
+    <!-- <img src="images/vision.jpg" alt="vision"> -->
     <div class="container">
     <!--h3, paragraph and button -->
     <h3>Our Vision</h3>
@@ -126,20 +143,24 @@
 
     <div class="jone">
         <img src="images/john.jpg" alt="john">
-    
+
+        <div class="jone-detail">
         <h3>John Doe</h3>
         <h4> CEO and Co-owner</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
         </p>
+        </div>
       </div>
 
       <div class="Bob">
         <img src="images/bob.jpg" alt="bob">
-     
+
+        <div class="Bob-detail">
         <h3>Bob Rite</h3>
         <h4> CFO and Co-owner</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
         </p>
+        </div>
       </div>
 
     </div><!--end container-->
@@ -185,7 +206,7 @@
       </table>
     </div>
 
-    <div class="googleMap">
+    <div class="googlemap">
       <h3>Location</h3>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.991336547881!2d-75.7594631492966!3d45.3489871490429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669221316644!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
