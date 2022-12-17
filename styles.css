@@ -125,6 +125,11 @@ nav a:visited{
     text-align: center;
     display: block;
 }
+@media (min-width:760px){
+   .current li{
+        display: inline;}
+}
+
 .current a:link,
 .current a:visited {
 background-color: #c78b07;
@@ -135,6 +140,12 @@ color: #222222;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+@media (min-width:760px){
+    .logo{
+        padding: 20px;
+        background-color: #000000;
+    }
+ }
 
 .header-welcome{
     background-image: url(../final-project/images/main-banner.jpg);
@@ -142,6 +153,13 @@ color: #222222;
     padding-top: 60px;
     padding-bottom: 60px;
 }
+@media (min-width:760px){
+    .header-welcome{
+        padding-left: 55px;
+        padding-right: 55px; 
+    }
+ }
+ 
 .header-welcome .container{
 background-color: rgba(0, 0, 0, 0.5);
 color: white;
@@ -160,9 +178,14 @@ color: white;
     background-color:  #ffe6ac;
     padding: 1rem;
 }
-.section-about img{
-    width: 100%;
-}
+
+@media (min-width:760px){
+    .section-about img{
+        float:left; 
+        width: 50%;
+        padding: 0.5rem;
+    }
+ }
 
 .Digital{
     background-color:  #ffe6ac;
@@ -252,6 +275,38 @@ color: white;
     padding: 2rem;
     font-size:18px;
 }
+
+@media (min-width:760px){
+    .grid-container {
+        display: grid;
+        gap:1rem;
+        grid-template-columns: 50% 50% 1fr 1fr 1fr;
+    }
+
+    }
+
+        /* grid-template-areas:
+         "a b"
+         "c d e";}
+
+    .Digital{
+      grid-area: a;
+      } 
+    .Marketing {
+        grid-area: b;
+      } 
+    .Video{
+        grid-area: c;
+      }
+    .Web{
+        grid-area: d;
+    }
+    .Print{
+        grid-area: e;
+    } */
+
+
+
 .section-vision{
     background-image: url(../final-project/images/vision.jpg);
     background-size: cover;
